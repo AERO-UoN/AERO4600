@@ -26,6 +26,8 @@ C = [0 0 1 0];
 de2q = minreal(zpk(tf(num,den)))
 
 % Step 3: Apply modal reduction to get G_sp and G_ph
+% Check the last part of this Panopto video for details: 
+% https://uoncapture.ap.panopto.com/Panopto/Pages/Viewer.aspx?id=e82483e3-eee7-435b-8933-b331004e7b2c 
 s = tf('s');
 de2q_sp = -0.8435*(s+3.877)/(s^2+8.631*s+136.4)
 de2q_pm = -0.024*(s+0.008457)*s/(s^2 + 0.008776*s + 0.004889)
