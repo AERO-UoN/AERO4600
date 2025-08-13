@@ -30,7 +30,7 @@ de2q = minreal(zpk(tf(num,den)))
 % https://uoncapture.ap.panopto.com/Panopto/Pages/Viewer.aspx?id=e82483e3-eee7-435b-8933-b331004e7b2c 
 s = tf('s');
 de2q_sp = -0.8435*(s+3.877)/(s^2+8.631*s+136.4)
-de2q_pm = -0.024*(s+0.008457)*s/(s^2 + 0.008776*s + 0.004889)
+de2q_pm =  -0.8435*(3.877/136.4)*s*(s-0.009629)/(s^2 - 0.009314*s + 0.004884)
 
 % Step 4: Plot Bode plots for comparison
 omega = logspace(-3,2,10000);
