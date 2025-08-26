@@ -9,7 +9,7 @@ B = [2.38    0.0;
      0.0    -0.8435;
      0.0     0.0];
 
-% Output: pitch rate (q), which is the 3nd state
+% Output: pitch rate (q), which is the 3rd state.
 C = [0 0 1 0];
 D = [0 0];
 
