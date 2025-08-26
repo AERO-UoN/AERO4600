@@ -1,5 +1,5 @@
-Second-Order System – Spring-Mass-Damper Response
-Underdamped Systems
+% Second-Order System – Spring-Mass-Damper Response
+% Underdamped Systems
 % System parameters
 m = 1;      % mass (kg)
 c = 2;      % damping (Ns/m)
@@ -25,7 +25,7 @@ ylabel('Displacement (m)');
 % Show damping and natural frequency
 damp(sys)
 
-Undamped Systems
+% Undamped Systems
 % System parameters
 m = 1;      % mass (kg)
 c = 0;      % damping (Ns/m)
@@ -51,7 +51,7 @@ ylabel('Displacement (m)');
 % Show damping and natural frequency
 damp(sys)
 
-Overdamped Systems
+% Overdamped Systems
 % System parameters
 m = 1;      % mass (kg)
 c = 6;      % damping (Ns/m)
@@ -76,7 +76,7 @@ ylabel('Displacement (m)');
 
 % Show damping and natural frequency
 damp(sys)
-Critically-Damped Systems
+% Critically-Damped Systems
 % System parameters
 m = 1;      % mass (kg)
 c = 4;      % damping (Ns/m)
