@@ -15,7 +15,7 @@
 % * Inputs: elevator deflection $\delta_e$
 % * States: $x = [\theta; q]$
 %% 
-% Try to linearize the system model to a state-space representaion. 
+% Try to linearize the system model to a state-space representation.
 %% Method 1: Analynical solution
 
 % Step 1: Define Symbolic Nonlinear Model
